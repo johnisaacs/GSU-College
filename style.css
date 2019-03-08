@@ -1,0 +1,117 @@
+/*
+Theme Name: College Theme
+Author: Rebekah Hickey, Georgia Southern University Web Team
+Author URI: http://www.georgiasouthern.edu/
+Description: Theme for Georgia Southern University college and large division sites. 
+Version: 1.9.1
+Last Updated: 3/30/2016
+*/
+
+
+/*
+#pagepad a {color: #222F59;}
+#pagepad a:hover {color: #4F6386;}
+*/
+
+/* TABS */
+ 
+#pagepad ul.resetlist li {
+	height: auto;
+	line-height:1.4em;
+	}
+/* Home Page - No Title Option Styles */
+#fp_menuheader h1, #fp_menuheader_saem h1 {
+	font-size:18px;
+	line-height:1.2em;
+	margin-bottom:0;
+	text-align:center;
+}
+
+/* Home Page - Alternate Layout Styles */
+#sitename h1 {
+	font-size:18px;
+	margin-bottom:0;
+	line-height:1.5em;
+}	
+/* College Content area */
+#pagepad {
+	background-image:none;
+	background-color:none;
+	margin-top:15px;
+	margin-bottom:15px;
+	padding: 15px;
+	clear:both;
+	margin-left:0;	
+}
+
+#pagepad a {
+	color: #00679A;
+}
+ul.tabs li a {
+	color: #333 !important;
+}
+/* College alternate home page */
+#content .four.columns {
+		width:212px;
+	}
+/* Post Styles */
+h1#news {
+	font-size: 2.5em;
+	}
+.news h1 {
+	font-size: 2em;
+	line-height:1.1em;
+	}
+.news h2 {
+	font-size: 1.8em;
+	line-height:1.2em;
+	}
+
+.prev-post, .next-post {
+	font-size: 11px;
+	color: #555;
+	line-height:1em;
+	}
+.next-post {
+	float:right;
+	width: auto;
+	clear:both;
+	text-decoration:underline;
+	}
+
+/* College Sidebar */
+#mainmenu, #college-menu {
+	border-radius:0;
+	-moz-border-radius:0;
+}
+#mainmenu h3, #college-menu h3 {
+	font-size:15px;
+	
+}	
+/*sidebar search form */
+.widget_search {
+	clear:both;
+	margin: 15px 0;
+	}
+.widget_search #s {
+	width:60%;
+	float:left;
+	margin-right: 10px;
+	}
+.widget_search #submit {
+	width:15%;
+	float:left;	
+	}
+.widget_search label.screen-reader-text {
+    display: none;
+}
+.widget_search input[type="submit"] {
+	padding:4px;
+	}
+	
+/* widgets */
+/*
+a.rsswidget:hover {
+	color: #000066;
+	}
+*/
